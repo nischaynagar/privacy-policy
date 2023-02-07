@@ -70,11 +70,11 @@
 
 .navbar-optionbtns
 {
-  display: flex;
-  width: 20%;
-  align-self: center;
-  justify-content: space-between;
-  margin-left: auto;
+    display: flex;
+    gap: 20px;
+    align-self: center;
+    justify-content: space-between;
+    margin-left: auto;
 }
 
 .navbar-optionbtns button{
@@ -116,6 +116,10 @@
   letter-spacing: 0.1em;
 }
 
+.menu-icon{
+  display: none;
+}
+
 @media(min-width: 50em){
     .display-md-inline-flex{
         display: inline-flex;
@@ -132,7 +136,7 @@
     .nav-wrapper{
       background: #040507;
       border-radius: 0;
-      padding: 0.5em 1em;
+      padding: 2em 1em;
     }
     .primary-navigation {
       display: none;
@@ -185,3 +189,20 @@
   }
 
  
+  @media only screen and (max-width: 700px) {
+    .header-title{
+      font-size: 15px;
+      line-height: 15px;
+    }
+    .navbar-optionbtns{
+      display: none;
+    }
+    .QuotaBtn{
+      display: none;
+    }
+    .menu-icon{
+      display: inline;
+      width: 20px;
+      height: 20px;
+    }
+}

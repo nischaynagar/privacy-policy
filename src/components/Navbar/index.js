@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../assests/images/logo.svg';
+import menuIcon from "../assests/images/icon-menu.svg";
 import "./style.css";
 
 export default function Navbar(props) {
@@ -18,6 +19,7 @@ export default function Navbar(props) {
                 <button>Projects</button>
             </div>
             <button  className="QuotaBtn">Get a Quote</button>
+            <img className='menu-icon' src={menuIcon} alt="menu-icon"/>
           </div>
         </div>
       </header>

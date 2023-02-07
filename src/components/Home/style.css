@@ -31,6 +31,9 @@
 }
 
 .main-title-div p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
     max-width: 80%;
     text-align: center;
 }
@@ -149,4 +152,33 @@
 
 ol li{
     margin: 20px 0;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .main-title{
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .main-title-div{
+        padding: 4em 1em 4em 1em;
+    }
+    .main-title-div p{
+        font-size: 13px;
+    }
+    .notice-desc{
+        font-size: 11px;
+        line-height: 24px;
+    }
+    .effe-date{
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .titles{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .policy-tnc{
+        padding: 2em 0;
+    }
 }
