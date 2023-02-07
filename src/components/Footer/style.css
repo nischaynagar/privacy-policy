@@ -1,0 +1,131 @@
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #030405 0%, #120C19 100%);
+    padding: 4% 8% 8% 8%;
+}
+.title{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.social-icon-div{
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon-div img{
+    cursor: pointer;
+}
+
+.signup-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: center;
+}
+
+.signup-input{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 10px
+}
+
+.signup-input img{
+    background: #27B67A;
+    width: 15px;
+    height: 15px;
+}
+
+.signup-input input{
+    height: 100%;
+    border: none;
+    height: 47px;
+    background: #1F1F1F;
+    color: white;
+    padding: 16px;
+    line-height: 10px;
+    font-size: 15px;
+}
+
+.signup-input button{
+    border: none;
+    padding: 16px 14px;
+    background: #27B67A;
+}
+
+.signup-txt{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.highlighted{
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #27B67A;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.webpage-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.desc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.title p{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+}
+
+.title-desc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.71);
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-logo-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

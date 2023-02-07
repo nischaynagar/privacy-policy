@@ -1,0 +1,152 @@
+.main-title{
+    font-family: 'Phenomicon Laser';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 127px;
+
+    text-align: center;
+
+    background: linear-gradient(90.06deg, #386442 1.07%, #8EC367 99.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 8% 8% 8%;
+}
+
+.main-title-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 1em 7em 1em;
+    gap: 1em;
+}
+
+.main-title-div p{
+    max-width: 80%;
+    text-align: center;
+}
+
+.notice-desc{
+    background: rgba(255, 255, 255, 0.11);
+    box-shadow: 0px 16px 40px rgb(0 0 0 / 15%);
+    border-radius: 40px;
+    padding: 35px 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: left;
+    max-width: 1110px;
+}
+
+.effe-date{
+    width: 100%;
+    text-align: left;
+    padding: 35px 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    max-width: 1110px;
+}
+
+.titles{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+
+    text-transform: uppercase;
+
+    background: linear-gradient(90.06deg, #386442 1.07%, #8EC367 99.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.content-div{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    max-width: 1110px;
+    width: 100%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.contact-desc{
+    display: flex;
+    gap: 20px;
+}
+
+.contact-phone-icon{
+    width: 20px;
+}
+
+.contact-email-icon{
+    width: 20px;
+}
+
+.contact-location-icon{
+    width: 20px;
+    align-self: baseline;
+    scale: 2;
+}
+
+
+.contact-email{
+    text-decoration-line: underline;
+}
+
+.location-txt{
+    font-size: 20px;
+}
+
+.policy-tnc{
+    display: flex;
+    flex-direction: column;
+    padding: 6em 0;
+    gap: 4em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.policy-tnc-content{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    max-width: 1110px;
+}
+
+.desc-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+ol li{
+    margin: 20px 0;
+}
