@@ -23,11 +23,21 @@ export default function Footer()
                 <div className="socials1">
                     <div>Reach out to us:</div>
                     <div className="social-icon-div">
-                        <img src={igIcon} className="social-icons" alt="ig-icon" />
-                        <img src={linkedInIcon}className="social-icons" alt="linkedIn-icon"/>
-                        <img src={twitterIcon} className="social-icons" alt="twitter-icon"/>
-                        <img src={telegramIcon} className="social-icons" alt="telegram-icon"/>
-                        <img src={emailIcon} className="social-icons" alt="email-icon"/>
+                        <a href="https://instagram.com/thematrixlabs.eth?igshid=NDk5N2NlZjQ=">
+                            <img src={igIcon} className="social-icons" alt="ig-icon" />
+                        </a>
+                        <a href="https://www.linkedin.com/company/thematrixlabs/">
+                            <img src={linkedInIcon}className="social-icons" alt="linkedIn-icon"/>
+                        </a>
+                        <a href="https://twitter.com/TheMatrixLabs?t=WI-bvQduDTmbcLZ-ikyrbg&s=09">
+                            <img src={twitterIcon} className="social-icons" alt="twitter-icon"/>
+                        </a>
+                        <a href="https://t.me/brickMatrix">
+                            <img src={telegramIcon} className="social-icons" alt="telegram-icon"/>
+                        </a>
+                        <a href="mailto:contact@thematrixlabs.com">
+                            <img src={emailIcon} className="social-icons" alt="email-icon"/>
+                        </a>
                     </div>
                 </div>
             </div>
