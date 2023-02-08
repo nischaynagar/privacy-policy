@@ -157,7 +157,7 @@ ol li{
 
 @media only screen and (max-width: 700px) {
     .main-title{
-        font-size: 60px;
+        font-size: 4rem;
         line-height: 70px;
     }
     .main-title-div{

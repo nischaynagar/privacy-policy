@@ -20,7 +20,7 @@ export default function Footer()
                     </div>
                     <div className="title-desc">One stop for all Blockchain solutions</div>
                 </div>
-                <div className="socials">
+                <div className="socials1">
                     <div>Reach out to us:</div>
                     <div className="social-icon-div">
                         <img src={igIcon} className="social-icons" alt="ig-icon" />
@@ -31,6 +31,7 @@ export default function Footer()
                     </div>
                 </div>
             </div>
+            <div className="webpage-links-wrapper">
             <div className="webpage-links">
                 <div className="highlighted">Home</div>
                 <div>About</div>
@@ -41,6 +42,7 @@ export default function Footer()
                 <div>Contact us</div>
                 <div>FAQs</div>
             </div>
+            </div>
             <div className="signup-wrapper">
                 <div className="signup-txt">Sign up for updates</div>
                 <div  className="signup-input">
@@ -49,6 +51,16 @@ export default function Footer()
                         <img src={sendIcon} className="send-icon" alt="send-icon" />
                     </button>
                 </div>
+            </div>
+            <div className="socials2">
+                    <div>Reach out to us:</div>
+                    <div className="social-icon-div">
+                        <img src={igIcon} className="social-icons" alt="ig-icon" />
+                        <img src={linkedInIcon}className="social-icons" alt="linkedIn-icon"/>
+                        <img src={twitterIcon} className="social-icons" alt="twitter-icon"/>
+                        <img src={telegramIcon} className="social-icons" alt="telegram-icon"/>
+                        <img src={emailIcon} className="social-icons" alt="email-icon"/>
+                    </div>
             </div>
         </div>
     );
