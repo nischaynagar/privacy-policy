@@ -18,7 +18,7 @@ export default function Navbar(props) {
                 <button>Services</button>
                 <button>Projects</button>
             </div>
-            <button  className="QuotaBtn">Get a Quote</button>
+            <div  className="QuotaBtn">Get a Quote</div>
             <img className='menu-icon' src={menuIcon} alt="menu-icon"/>
           </div>
         </div>
